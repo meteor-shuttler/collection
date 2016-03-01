@@ -1,6 +1,6 @@
 Package.describe({
   name: 'shuttler:collection',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'Adds `Collection` helper to all documents in all collections.',
   git: 'https://github.com/meteor-shuttler/collection',
   documentation: 'README.md'
