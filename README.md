@@ -14,7 +14,7 @@ meteor add shuttler:collection
 var b = new Mongo.Collection('a');
 b.insert({ _id: 'c' });
 var c = b.findOne('c');
-c.Collection(); // 'a'
+c.Collection() == b; // true
 var d = new Mongo.Collection(null, { ref: 'd' });
 d._ref == 'd'; // true
 Shuttler.collection('d') == d; // true
