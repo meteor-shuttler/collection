@@ -35,3 +35,8 @@ Shuttler.collection(function(collection) { return collection._name == 'e'; }) ==
 
 ### Shuttler.collections
 > () => [Mongo.Collection]
+
+## Versions
+
+### 0.0.6
+* Fix `lodash` dependence
